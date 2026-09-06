@@ -1,0 +1,14 @@
+# Hugo generated files
+public/
+resources/_gen/
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+.hugo.yaml.bak
+.hugo_build.lock

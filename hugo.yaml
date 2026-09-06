@@ -1,0 +1,479 @@
+baseURL: "http://localhost:1313/"
+title: "Andrew Ciomperlik"
+theme: hugo-profile
+
+# English-only configuration
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    label: "English"
+    locale: "en-US"
+    weight: 1
+    contentDir: "content"
+    menu:
+      main:
+        - identifier: blog
+          name: Blog
+          title: Blog posts
+          url: /blogs
+          weight: 1
+
+# Required for site search/RSS output
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+# services:
+#   googleAnalytics:
+#     id: G-MEASUREMENT_ID
+#   disqus:
+#     shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Andrew Ciomperlik"
+  description: "IT professional focused on networking, systems administration, Linux, cloud infrastructure, and cybersecurity."
+
+  # staticPath: ""
+  # favicon: "/fav.png"
+
+  # Whether to serve Bootstrap CSS/JS from CDN
+  useBootstrapCDN: false
+
+  # MathJax support
+  mathjax: false
+
+  # Homepage animations
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  # Optional custom colors
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+  #
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # Navigation
+  navbar:
+    align: ms-auto
+
+    # brandLogo: "/logo.png"
+    # showBrandLogo: false
+
+    brandName: "Andrew Ciomperlik"
+
+    disableSearch: false
+    # searchPlaceholder: "Search"
+
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+
+    enableSeparator: false
+
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Andrew Ciomperlik."
+    subtitle: "Networking • Systems • Linux • Cloud • Cybersecurity"
+    content: "IT professional with approximately seven years of experience, building hands-on skills in network infrastructure, systems administration, cloud technologies, automation, and cybersecurity."
+
+    image: /images/hero.svg
+
+    bottomImage:
+      enable: true
+
+    # roundImage: true
+
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: "https://github.com/andciom"
+
+        - icon: fab fa-linkedin
+          url: "https://www.linkedin.com/in/andrew-ciomperlik-54088b58/"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+
+    content: |-
+      I work extensively with Linux, macOS, Windows, networking, Docker, DNS, virtualization, cybersecurity, and cloud technologies. I maintain a home lab built around Raspberry Pi and Orange Pi systems and am developing a Windows Server and Active Directory virtualization lab.
+
+      I am currently studying for the Cisco CCNA while continuing to build practical projects in networking, systems administration, automation, and Microsoft Azure.
+
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+
+      items:
+        - "TCP/IP & Networking"
+        - "Linux"
+        - "Docker"
+        - "DNS"
+        - "Windows"
+        - "Active Directory"
+        - "Microsoft Azure"
+        - "Cisco Networking"
+        - "Cybersecurity"
+        - "Git & GitHub"
+
+  # Experience
+  experience:
+    enable: true
+    title: "Professional Experience"
+
+    items:
+      - company: "The 20"
+        companyUrl: "https://www.the20msp.com/"
+
+        jobs:
+          - name: "IT Support Desk Specialist"
+            date: "2023 - present"
+
+            content: |-
+              - Administer and support **Active Directory, Microsoft 365, and Exchange** environments, including user accounts, access permissions, password management, and Group Policy.
+              - Provide **technical support** for Windows and macOS environments across remote organizations.
+              - Troubleshoot network and connectivity issues involving **DNS, DHCP, VPNs, TCP/IP, wireless networks, and VLAN-related configurations**.
+              - Diagnose and resolve complex hardware, software, authentication, endpoint, and application issues while minimizing user downtime.
+              - Support endpoint security and identity-management practices to help protect client systems, accounts, and organizational data.
+              - Collaborate with technical teams on escalations, infrastructure issues, and implementation of IT solutions.
+              - Maintain detailed technical documentation, troubleshooting records, and knowledge-base information to improve resolution efficiency and knowledge sharing.
+              - Install, configure, maintain, and troubleshoot workstation hardware, operating systems, software, and supporting IT infrastructure.
+
+
+      - company: "Computacenter"
+        companyUrl: "https://www.computacenter.com/en-us"
+
+        jobs:
+          - name: "Level One Analyst / Customer Engineer"
+            date: "2022"
+
+            content: |-
+              - Deployed and configured new laptops as part of enterprise device refresh and provisioning initiatives.
+              - Supported and troubleshot **Lenovo laptops, iPads, mobile devices, and cloud-managed endpoints**.
+              - Managed devices within **MDM and cloud-based management environments**, helping maintain device compliance and availability.
+              - Diagnosed and resolved issues involving enterprise applications including **Salesforce, Veeva, and Concur**.
+              - Worked within defined **service-level agreements (SLAs)** while prioritizing first-contact resolution and minimizing user downtime.
+              - Documented incidents, troubleshooting steps, and resolutions to support escalation and service continuity.
+
+      - company: "WatchGuard Video / Motorola Solutions"
+        companyUrl: "https://www.motorolasolutions.com/en_us/video-security-access-control/in-car-video-systems/4re-in-car-video-system.html"
+
+        jobs:
+          - name: "System Technologist 2"
+            date: "2020 - 2021"
+
+            content: |-
+              - Supported integrated public-safety technology environments involving **body cameras, in-vehicle cameras, computer systems, servers, wireless networks, cellular connectivity, and cloud services**.
+              - Diagnosed hardware, software, network, wireless, cellular, and cloud connectivity issues across field-deployed systems.
+              - Installed, maintained, and updated applications and systems in both **Windows and Linux environments**.
+              - Supported server infrastructure and cloud-based video upload services used by law-enforcement organizations.
+              - Collaborated across multiple technical support tiers to diagnose and resolve high-priority and complex incidents.
+              - Performed software and system updates and participated in **beta testing** of new and existing applications.
+              - Delivered technical assistance and training to end users on system operation and troubleshooting.
+              - Handled highly sensitive information associated with **law-enforcement investigations and court proceedings** in accordance with security and confidentiality requirements.
+
+      - company: "Columbia Advisory Group"
+        companyUrl: "https://columbiaadvisory.com/"
+
+        jobs:
+          - name: "Classroom Technology Specialist"
+            date: "2019 - 2020"
+
+            content: |-
+              - Monitored classroom technology and audiovisual systems using centralized management and monitoring platforms.
+              - Diagnosed and resolved hardware, software, connectivity, and classroom technology issues in real time to minimize instructional disruption.
+              - Maintained accurate equipment status, inventory, and maintenance records.
+              - Participated in the planning, installation, configuration, and deployment of classroom technology systems and equipment.
+              - Provided on-site technical support for faculty, staff, and educational environments.
+              - Coordinated equipment maintenance and system readiness to ensure reliable classroom technology availability.
+
+      - company: "State Farm"
+        companyUrl: "https://www.statefarm.com/"
+
+        jobs:
+          - name: "Escalation Specialist"
+            date: "2013 - 2019"
+
+            content: |-
+              - Progressed through **three promotions**, advancing from Customer Service Representative to Coordinator and ultimately Escalation Specialist.
+              - Served as a **subject-matter expert and escalation point**, coordinating complex issues across departments and stakeholders.
+              - Trained, mentored, and onboarded team members on organizational processes, systems, and service procedures.
+              - Collaborated with analysts to identify recurring trends, improve processes, and accelerate problem resolution.
+              - Supported implementation and communication of operational and technology-related changes as an On-The-Ground team representative.
+              - Maintained and supported workplace technology assets, including **software, operating system updates, and point-of-sale systems**.
+              - Developed strong experience in technical communication, escalation management, documentation, customer service, and cross-functional problem solving.
+
+  # Education
+  education:
+    enable: true
+    index: false
+
+    items:
+      - title: "Information Technology/System Administrator"
+
+        school:
+          name: "MyComputerCareer"
+          url: "https://www.mycomputercareer.edu/"
+
+        date: "Graduated 2019"
+
+  # Certifications
+  achievements:
+    enable: true
+    title: "Certifications"
+
+    items:
+      - title: "Secure Infrastructure Specialist"
+        content: "CompTIA Infrastructure Specialist"
+        url: "https://www.credly.com/badges/6cb78d92-7617-4855-a00c-8a175e27ef4d/linked_in_profile"
+
+      - title: "Linux Network Professional"
+        content: "CompTIA Linux Professional"
+        url: "https://www.credly.com/badges/4228af4a-b8e8-4637-9ccb-4f8fed65e11b/public_url"
+
+      - title: "Network Infrastructure Professional"
+        content: "CompTIA Infrastructure Professional"
+        url: "https://www.credly.com/badges/b6dacba6-45a6-4245-a0ca-d522201200ba/linked_in_profile"
+
+      - title: "Systems Support Specialist"
+        content: "CompTIA System Support Specialist"
+        url: "https://www.credly.com/badges/4fbdae53-0508-4c78-a6d7-ca0ae703e8f8"
+
+      - title: "IT Operations Specialist"
+        content: "CompTIA IT Operations Specialist"
+        url: "https://www.credly.com/badges/4ec1f567-88cc-4d01-9e65-2b51fd4107d7/linked_in_profile"
+
+      - title: "Linux+"
+        content: "CompTIA Linux+"
+        url: "https://www.credly.com/badges/92335a79-f15e-43a4-a4e7-c691e39df007"
+
+      - title: "Security+"
+        content: "CompTIA Security+"
+        url: "https://www.credly.com/badges/4228af4a-b8e8-4637-9ccb-4f8fed65e11b/public_url"
+
+      - title: "Server+"
+        content: "CompTIA Server+"
+        url: "https://www.credly.com/badges/3efdea2c-35be-4cff-b2a5-d2585cedbf9e/linked_in_profile"
+
+      - title: "Network+"
+        content: "CompTIA Network+"
+        url: "https://www.credly.com/badges/3c7f8004-9cf2-4559-b0f3-619856117470/linked_in_profile"
+
+      - title: "A+"
+        content: "CompTIA A+"
+        url: "https://www.credly.com/badges/aa296c28-d71c-42b5-9654-36503434c420/linked_in_profile"
+
+      - title: "Azure AI Fundamentals"
+        content: "Microsoft Certified"
+        url: "https://learn.microsoft.com/en-us/users/andrewciomperlik-2123/credentials/1ba1196e2713898a?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+
+      - title: "Azure Fundamentals"
+        content: "Microsoft Certified"
+        url: "https://www.credly.com/badges/24fc0a07-3c1b-4883-a5ec-e003f989a3e2/linked_in_profile"
+
+      - title: "Networking Fundamentals"
+        content: "Microsoft Technology Associate"
+        url: "https://www.credly.com/badges/de3f5eb4-015d-4793-b2a7-2cf05b2191b3/linked_in_profile"
+
+      - title: "Security Fundamentals"
+        content: "Microsoft Technology Associate"
+        url: "https://www.credly.com/badges/4496abf7-e987-4f42-a9fb-7bae3e76be52/linked_in_profile"
+
+      - title: "Windows Server Administration Fundamentals"
+        content: "Microsoft Technology Associate"
+        url: "https://www.credly.com/badges/7a0cce5e-48b2-4916-ac01-96e61e4d0cb5/linked_in_profile"
+
+      - title: "Mobility and Device Fundamentals"
+        content: "Microsoft Technology Associate"
+        url: "https://www.credly.com/badges/c900bb9f-6461-47a8-a16a-2e4fbca4e9c0/linked_in_profile"
+
+      - title: "Certified Support Professional"
+        content: "Apple Certified"
+        url: "https://www.credly.com/badges/022413a8-70dd-43ac-a272-691d6e2112f1/linked_in_profile"
+
+      - title: "Certified in Cybersecurity"
+        content: "International Information System Security Certification Consortium"
+        url: "https://www.credly.com/earner/earned/badge/10dc9632-3d87-49fa-9ad9-a85f78a04398"
+
+      - title: "Linux Essentials"
+        content: "Linux Professional Institute"
+        url: "https://cs.lpi.org/caf/Xamman/certification/verify/LPI000434573/eap72p274p"
+
+  # Projects
+  # Leaving the original Hugo Profile projects as placeholders for now.
+  projects:
+    enable: true
+
+    items:
+      - title: "Hugo Profile"
+        content: "A highly customizable and mobile first Hugo template for personal portfolio and blog."
+        image: /images/projects/profile.png
+
+        featured:
+          name: Demo
+          link: "https://hugo-profile.netlify.app"
+
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+
+        links:
+          - icon: fa fa-envelope
+            url: "mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f"
+
+          - icon: fab fa-github
+            url: "https://github.com/gurusabarish/hugo-profile"
+
+          - icon: fab fa-twitter
+            url: "https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile"
+
+      - title: "Image Converter"
+        content: "A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django."
+        image: /images/projects/converter.jpg
+
+        featured:
+          name: Demo
+          link: "https://django-converter.herokuapp.com"
+
+        badges:
+          - "Django"
+          - "Bootstrap"
+
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/gurusabarish/converter"
+
+      - title: "Hugo Profile V2"
+        content: "A clean and simple Hugo template for personal portfolio and blog."
+        image: /images/projects/profile2.jpg
+
+        featured:
+          name: Demo V2
+          link: "https://hugo-profile-2.netlify.app"
+
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/gurusabarish/HugoProfileV2"
+
+  # Contact
+  contact:
+    enable: true
+    content: "My inbox is always open. Whether you have a question or want to talk technology."
+    btnName: "Contact Me"
+    btnLink: "mailto:andciom@gmail.com"
+
+    # formspree:
+    #   enable: true
+    #   formId: abcdefgh
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  # Footer
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: "Recent Posts"
+      enable: true
+      disableFeaturedImage: false
+
+  # List pages such as blogs/posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Individual blog/post pages
+  singlePages:
+    socialShare: true
+
+    readTime:
+      enable: true
+      content: "min read"
+
+    scrollprogress:
+      enable: true
+
+    tags:
+      openInNewTab: true
+
+  # Translation strings
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  # Date formats
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  # Custom JavaScript can be added here later
+  # customScripts: -|
+  #   <script type="text/javascript">
+  #   </script>
