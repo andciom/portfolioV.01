@@ -123,7 +123,7 @@ params:
     # intro: "Hi, my name is"
     title: "Andrew Ciomperlik."
     subtitle: "Networking • Systems • Linux • Cloud • Cybersecurity"
-    content: "IT professional with approximately seven years of experience, building hands-on skills in network infrastructure, systems administration, cloud technologies, automation, and cybersecurity."
+    content: "IT professional with seven years of experience, building hands-on skills in network infrastructure, systems administration, cloud technologies, automation, and cybersecurity."
 
     image: /images/headshot.jpeg
     roundImage: true
@@ -155,7 +155,7 @@ params:
     image: "/images/computer.png"
 
     content: |-
-      I work extensively with Linux, macOS, Windows, networking, Docker, DNS, virtualization, cybersecurity, and cloud technologies. I maintain a home lab built around Raspberry Pi and Orange Pi systems and am developing a Windows Server and Active Directory virtualization lab.
+      I work extensively with Linux, macOS, Windows, networking, Docker, DNS, virtualization, cybersecurity, and cloud technologies. I maintain a home lab built around Raspberry Pi and Orange Pi systems and am developing a Windows Server and Active Directory virtualization labs.
 
       I am currently studying for the Cisco CCNA while continuing to build practical projects in networking, systems administration, automation, and Microsoft Azure.
 
@@ -383,28 +383,25 @@ params:
     enable: true
 
     items:
-      - title: "Hugo Profile"
-        content: "A highly customizable and mobile first Hugo template for personal portfolio and blog."
-        image: /images/projects/profile.png
+      - title: "Highly Available Secure Homelab Infrastructure"
+        content: "Designed and built a highly available homelab using Raspberry Pi and Orange Pi systems with redundant DNS, recursive resolution, HTTPS reverse proxying, containerized services, and fault-tolerant network infrastructure."
+        image: /images/projects/project1.png
 
         featured:
-          name: Demo
-          link: "https://hugo-profile.netlify.app"
+         # name: Demo
+         # link: "https://hugo-profile.netlify.app"
 
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Docker"
+          - "Unbound"
+          - "HAProxy"
+          - "DNSSEC"
 
         links:
-          - icon: fa fa-envelope
-            url: "mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f"
 
           - icon: fab fa-github
-            url: "https://github.com/gurusabarish/hugo-profile"
+            url: "https://github.com/andciom"
 
-          - icon: fab fa-twitter
-            url: "https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile"
 
       - title: "Image Converter"
         content: "A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django."
@@ -420,7 +417,7 @@ params:
 
         links:
           - icon: fab fa-github
-            url: "https://github.com/gurusabarish/converter"
+            url: "https://github.com/andciom"
 
       - title: "Hugo Profile V2"
         content: "A clean and simple Hugo template for personal portfolio and blog."
@@ -437,7 +434,7 @@ params:
 
         links:
           - icon: fab fa-github
-            url: "https://github.com/gurusabarish/HugoProfileV2"
+            url: "https://github.com/andciom"
 
   # Contact
   contact:
