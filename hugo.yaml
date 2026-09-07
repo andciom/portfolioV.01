@@ -284,78 +284,97 @@ params:
       - title: "Secure Infrastructure Specialist"
         content: "CompTIA Infrastructure Specialist"
         url: "https://www.credly.com/badges/6cb78d92-7617-4855-a00c-8a175e27ef4d/linked_in_profile"
+        image: "/images/CompTIA_CSIS.png"
 
       - title: "Linux Network Professional"
         content: "CompTIA Linux Professional"
         url: "https://www.credly.com/badges/4228af4a-b8e8-4637-9ccb-4f8fed65e11b/public_url"
+        image: "/images/CompTIA_CLNP.png"
 
       - title: "Network Infrastructure Professional"
         content: "CompTIA Infrastructure Professional"
         url: "https://www.credly.com/badges/b6dacba6-45a6-4245-a0ca-d522201200ba/linked_in_profile"
+        image: "/images/CompTIA_CNIP.png"
 
       - title: "Systems Support Specialist"
         content: "CompTIA System Support Specialist"
         url: "https://www.credly.com/badges/4fbdae53-0508-4c78-a6d7-ca0ae703e8f8"
+        image: "/images/CompTIA_CSSS.png"
 
       - title: "IT Operations Specialist"
         content: "CompTIA IT Operations Specialist"
         url: "https://www.credly.com/badges/4ec1f567-88cc-4d01-9e65-2b51fd4107d7/linked_in_profile"
+        image: "/images/04294_CompTIA_Cert_Badges_Specialist_-_CIOS.png"
 
       - title: "Linux+"
         content: "CompTIA Linux+"
         url: "https://www.credly.com/badges/92335a79-f15e-43a4-a4e7-c691e39df007"
+        image: "/images/Linux+.png"
 
       - title: "Security+"
         content: "CompTIA Security+"
-        url: "https://www.credly.com/badges/4228af4a-b8e8-4637-9ccb-4f8fed65e11b/public_url"
+        url: "https://www.credly.com/badges/88ce24ff-c4b0-44a7-9c8f-793466b009a9/"
+        image: "/images/Security+.png"
 
       - title: "Server+"
         content: "CompTIA Server+"
         url: "https://www.credly.com/badges/3efdea2c-35be-4cff-b2a5-d2585cedbf9e/linked_in_profile"
+        image: "/images/server+.png"
 
       - title: "Network+"
         content: "CompTIA Network+"
         url: "https://www.credly.com/badges/3c7f8004-9cf2-4559-b0f3-619856117470/linked_in_profile"
+        image: "/images/Network+.png"
 
       - title: "A+"
         content: "CompTIA A+"
-        url: "https://www.credly.com/badges/aa296c28-d71c-42b5-9654-36503434c420/linked_in_profile"
+        url: "https://www.credly.com/badges/aa296c28-d71c-42b5-9654-36503434c420/linked_in_profile"  
+        image: "/images/A+.png"
 
       - title: "Azure AI Fundamentals"
         content: "Microsoft Certified"
         url: "https://learn.microsoft.com/en-us/users/andrewciomperlik-2123/credentials/1ba1196e2713898a?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+        image: "/images/microsoft-certified-fundamentals-badge.svg"
 
       - title: "Azure Fundamentals"
         content: "Microsoft Certified"
         url: "https://www.credly.com/badges/24fc0a07-3c1b-4883-a5ec-e003f989a3e2/linked_in_profile"
+        image: "/images/Azure Fundamentals.png"
 
       - title: "Networking Fundamentals"
         content: "Microsoft Technology Associate"
         url: "https://www.credly.com/badges/de3f5eb4-015d-4793-b2a7-2cf05b2191b3/linked_in_profile"
+        image: "/images/MTA-Networking-Fundamentals-2019.png"
 
       - title: "Security Fundamentals"
         content: "Microsoft Technology Associate"
         url: "https://www.credly.com/badges/4496abf7-e987-4f42-a9fb-7bae3e76be52/linked_in_profile"
+        image: "/images/MTA-Security-Fundamentals-2019.png"
 
       - title: "Windows Server Administration Fundamentals"
         content: "Microsoft Technology Associate"
         url: "https://www.credly.com/badges/7a0cce5e-48b2-4916-ac01-96e61e4d0cb5/linked_in_profile"
+        image: "/images/MTA-Windows-Server-Administration-Fundamentals-2019.png"
 
       - title: "Mobility and Device Fundamentals"
         content: "Microsoft Technology Associate"
         url: "https://www.credly.com/badges/c900bb9f-6461-47a8-a16a-2e4fbca4e9c0/linked_in_profile"
+        image: "/images/MTA-Mobility-and-Device-Fundamentals-2019.png"
 
       - title: "Certified Support Professional"
         content: "Apple Certified"
         url: "https://www.credly.com/badges/022413a8-70dd-43ac-a272-691d6e2112f1/linked_in_profile"
+        image: "/images/Apple.png"
 
       - title: "Certified in Cybersecurity"
         content: "International Information System Security Certification Consortium"
-        url: "https://www.credly.com/earner/earned/badge/10dc9632-3d87-49fa-9ad9-a85f78a04398"
+        url: "https://www.credly.com/badges/10dc9632-3d87-49fa-9ad9-a85f78a04398"
+        image: "/images/ISC2.png"
 
       - title: "Linux Essentials"
         content: "Linux Professional Institute"
         url: "https://cs.lpi.org/caf/Xamman/certification/verify/LPI000434573/eap72p274p"
+        image: "/images/LPI.png"
 
   # Projects
   # Leaving the original Hugo Profile projects as placeholders for now.
