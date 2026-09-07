@@ -175,6 +175,8 @@ params:
         - "Cybersecurity"
         - "Git & GitHub"
 
+      #content: Check out my projects on Github
+
   # Experience
   experience:
     enable: true
@@ -387,7 +389,7 @@ params:
         content: "Designed and built a highly available homelab using Raspberry Pi and Orange Pi systems with redundant DNS, recursive resolution, HTTPS reverse proxying, containerized services, and fault-tolerant network infrastructure."
         image: /images/projects/project1.png
 
-        featured:
+       # featured:
          # name: Demo
          # link: "https://hugo-profile.netlify.app"
 
@@ -422,22 +424,24 @@ params:
           - icon: fab fa-github
             url: "https://github.com/andciom/azure_static_app_portfolio"
 
-    #  - title: "Hugo Profile V2"
-    #    content: "A clean and simple Hugo template for personal portfolio and blog."
-    #    image: /images/projects/profile2.jpg
+      - title: "Containerized Homelab Infrastructure"
+        content: "Multi-host Docker infrastructure providing DNS, reverse proxying, monitoring, automation, AI services, networking, and self-hosted applications."
+        image: /images/projects/project3.png
 
     #    featured:
     #      name: Demo V2
     #      link: "https://hugo-profile-2.netlify.app"
 
-    #    badges:
-    #      - "Hugo"
-    #      - "Bootstrap"
-    #      - "Javascript"
+        badges:
+          - "Docker"
+          - "Networking"
+          - "Caddy"
+          - "Linux"
+          - "DNS"
 
-    #    links:
-    #      - icon: fab fa-github
-    #        url: "https://github.com/andciom"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/andciom/Containerized-Homelab-Infrastructure/"
 
   # Contact
   contact:
