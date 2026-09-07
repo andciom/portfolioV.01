@@ -120,12 +120,13 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    # intro: "Hi, my name is"
     title: "Andrew Ciomperlik."
     subtitle: "Networking • Systems • Linux • Cloud • Cybersecurity"
     content: "IT professional with approximately seven years of experience, building hands-on skills in network infrastructure, systems administration, cloud technologies, automation, and cybersecurity."
 
-    image: /images/hero.svg
+    image: /images/headshot.jpeg
+    roundImage: true
 
     bottomImage:
       enable: true
@@ -151,7 +152,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/computer.png"
 
     content: |-
       I work extensively with Linux, macOS, Windows, networking, Docker, DNS, virtualization, cybersecurity, and cloud technologies. I maintain a home lab built around Raspberry Pi and Orange Pi systems and am developing a Windows Server and Active Directory virtualization lab.
