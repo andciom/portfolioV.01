@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://andrewciomperlik.com/"
 title: "Andrew Ciomperlik"
 theme: hugo-profile
 
@@ -12,13 +12,13 @@ languages:
     locale: "en-US"
     weight: 1
     contentDir: "content"
-   # menu:
-   #   main:
-   #     - identifier: blog
-   #       name: Blog
-   #       title: Blog posts
-   #       url: /blogs
-   #       weight: 1
+    menu:
+      main:
+        - identifier: Resume
+          name: Resume
+          title: Download Resume
+          url: /resume/Andrew_Ciomperlik_Resume_Sept07.pdf
+          weight: 10
 
 # Required for site search/RSS output
 outputs:
@@ -100,7 +100,7 @@ params:
 
     brandName: "Andrew Ciomperlik"
 
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
 
     stickyNavBar:
@@ -134,9 +134,9 @@ params:
     # roundImage: true
 
     button:
-      enable: false
-      name: "Resume"
-      url: "#"
+      enable: true
+      name: "Download Resume"
+      url: "/resume/Andrew_Ciomperlik_Resume_Sept07.pdf"
       download: true
       newPage: false
 
