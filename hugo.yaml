@@ -404,7 +404,7 @@ params:
 
 
       - title: "Azure Static Web App"
-        content: "Personal portfolio website built with Hugo and deployed to Microsoft Azure Static Web Apps. Uses Github actions to automate the website deployment."
+        content: "From Code to Cloud: Building and Deploying a Portfolio with Hugo, GitHub, and Azure"
         image: /images/projects/project2.png
 
     #   featured:
