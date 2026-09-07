@@ -12,13 +12,13 @@ languages:
     locale: "en-US"
     weight: 1
     contentDir: "content"
-    menu:
-      main:
-        - identifier: blog
-          name: Blog
-          title: Blog posts
-          url: /blogs
-          weight: 1
+   # menu:
+   #   main:
+   #     - identifier: blog
+   #       name: Blog
+   #       title: Blog posts
+   #       url: /blogs
+   #       weight: 1
 
 # Required for site search/RSS output
 outputs:
@@ -51,7 +51,7 @@ params:
   description: "IT professional focused on networking, systems administration, Linux, cloud infrastructure, and cybersecurity."
 
   # staticPath: ""
-  # favicon: "/fav.png"
+  favicon: "/images/computer.png"
 
   # Whether to serve Bootstrap CSS/JS from CDN
   useBootstrapCDN: false
@@ -400,41 +400,41 @@ params:
         links:
 
           - icon: fab fa-github
-            url: "https://github.com/andciom"
+            url: "https://github.com/andciom/high-availability-homelab"
 
 
-      - title: "Image Converter"
-        content: "A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django."
-        image: /images/projects/converter.jpg
+    #  - title: "Image Converter"
+    #   content: "A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django."
+    #    image: /images/projects/converter.jpg
 
-        featured:
-          name: Demo
-          link: "https://django-converter.herokuapp.com"
+    #   featured:
+    #      name: Demo
+    #      link: "https://django-converter.herokuapp.com"
 
-        badges:
-          - "Django"
-          - "Bootstrap"
+    #    badges:
+    #      - "Django"
+    #      - "Bootstrap"
 
-        links:
-          - icon: fab fa-github
-            url: "https://github.com/andciom"
+    #    links:
+    #      - icon: fab fa-github
+    #        url: "https://github.com/andciom"
 
-      - title: "Hugo Profile V2"
-        content: "A clean and simple Hugo template for personal portfolio and blog."
-        image: /images/projects/profile2.jpg
+    #  - title: "Hugo Profile V2"
+    #    content: "A clean and simple Hugo template for personal portfolio and blog."
+    #    image: /images/projects/profile2.jpg
 
-        featured:
-          name: Demo V2
-          link: "https://hugo-profile-2.netlify.app"
+    #    featured:
+    #      name: Demo V2
+    #      link: "https://hugo-profile-2.netlify.app"
 
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+    #    badges:
+    #      - "Hugo"
+    #      - "Bootstrap"
+    #      - "Javascript"
 
-        links:
-          - icon: fab fa-github
-            url: "https://github.com/andciom"
+    #    links:
+    #      - icon: fab fa-github
+    #        url: "https://github.com/andciom"
 
   # Contact
   contact:
@@ -456,7 +456,7 @@ params:
       path: "blogs"
       count: 3
       title: "Recent Posts"
-      enable: true
+      enable: false
       disableFeaturedImage: false
 
   # List pages such as blogs/posts
