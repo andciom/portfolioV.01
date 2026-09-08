@@ -389,8 +389,8 @@ params:
         content: "Designed and built a highly available homelab using Raspberry Pi and Orange Pi systems with redundant DNS, recursive resolution, HTTPS reverse proxying, containerized services, and fault-tolerant network infrastructure."
         image: /images/projects/project1.png
 
-       # featured:
-         # name: Demo
+        featured:
+           name: "In Progress"
          # link: "https://hugo-profile.netlify.app"
 
         badges:
@@ -409,8 +409,8 @@ params:
         content: "From Code to Cloud: Building and Deploying a Portfolio with Hugo, GitHub, and Azure"
         image: /images/projects/project2.png
 
-    #   featured:
-    #      name: Demo
+        featured:
+          name: "In Progress"
     #      link: "https://django-converter.herokuapp.com"
 
         badges:
@@ -428,8 +428,8 @@ params:
         content: "Multi-host Docker infrastructure providing DNS, reverse proxying, monitoring, automation, AI services, networking, and self-hosted applications."
         image: /images/projects/project3.png
 
-    #    featured:
-    #      name: Demo V2
+        featured:
+          name: "In Progress"
     #      link: "https://hugo-profile-2.netlify.app"
 
         badges:
