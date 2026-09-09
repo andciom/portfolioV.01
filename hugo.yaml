@@ -161,20 +161,18 @@ params:
 
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Core Skills"
 
       items:
-        - "TCP/IP & Networking"
-        - "Linux"
-        - "Docker"
-        - "DNS"
-        - "Windows"
-        - "Active Directory"
-        - "Microsoft Azure"
-        - "Cisco Networking"
-        - "Cybersecurity"
-        - "Git & GitHub"
-
+        - "Networking: TCP/IP, DNS, DHCP, VLANs, VPNs, Routing & Switching"
+        - "Systems Administration: Linux, Windows, macOS, Windows Server"
+        - "Identity & Directory Services: Active Directory, Group Policy, Microsoft Entra ID"
+        - "Containers & Infrastructure: Docker, Docker Compose, Portainer, HAProxy, Caddy"
+        - "Cloud: Microsoft Azure, Azure Static Web Apps, Microsoft 365"
+        - "Virtualization: Hyper-V, VirtualBox, UTM"
+        - "Security: TLS/HTTPS, DNSSEC, Endpoint Security, Access Control"
+        - "Automation & DevOps: Git, GitHub, GitHub Actions, YAML"
+        - "Monitoring & Troubleshooting: Dozzle, Network Diagnostics, Log Analysis"
       #content: Check out my projects on Github
 
   # Experience
@@ -443,8 +441,26 @@ params:
           - icon: fab fa-github
             url: "https://github.com/andciom/Containerized-Homelab-Infrastructure/"
 
+      - title: "Secure Remote Access with Tailscale"
+        content: "Implemented secure remote access to homelab infrastructure using Tailscale, providing encrypted connectivity to internal systems and services without exposing management interfaces directly to the public internet."
+        image: /images/projects/project4.png
+
+        featured:
+          name: "In Progress"
+    #      link: "https://hugo-profile-2.netlify.app"
+
+        badges:
+          - "Tailscale"
+          - "Linux"
+          - "Networking"
+          - "Zero Trust"
+
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/andciom/Secure-Remote-Access-with-Tailscale"
+
   # Contact
-  contact:
+  contact: 
     enable: true
     content: "My inbox is always open. Whether you have a question or want to talk technology."
     btnName: "Contact Me"
